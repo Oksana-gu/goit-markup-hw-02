@@ -46,6 +46,9 @@ ul, li {
 .web-title:focus {
     color: #404bbf;
 }
+.web-address {
+  font-style: normal; 
+}
 .web-address-email {
     font-weight: 400;
     font-size: 16px;
@@ -54,7 +57,7 @@ ul, li {
     color: #434455;
     text-decoration: none;
     cursor: pointer;
-    font-style: normal;
+    
 }
 .web-address-tel {
     font-weight: 400;
@@ -64,7 +67,6 @@ ul, li {
     color: #434455;
     text-decoration: none;
     cursor: pointer;
-    font-style: normal;
 }
 .web-address-email:hover {
     color: #404bbf;
@@ -103,10 +105,10 @@ ul, li {
 }
 
 .onesection-button:hover {
-    color: #404bbf;
+    background-color: #404bbf;
  }
 .onesection-button:focus {
-    color: #404bbf;
+    background-color: #404bbf;
 }
 .twosection {
     background-color: #f4f4fd;
@@ -133,6 +135,9 @@ ul, li {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+}
+.threesection {
+    background-color: #F4F4FD;
 }
 .threesection-title {
     font-weight: 500;
