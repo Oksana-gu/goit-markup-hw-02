@@ -139,6 +139,7 @@ ul, li {
 .threesection {
     background-color: #F4F4FD;
 }
+
 .threesection-title {
     font-weight: 500;
     font-size: 36px;
@@ -148,6 +149,7 @@ ul, li {
     color: #2e2f42;
     text-transform: capitalize;
 }
+
 .threesection-title-scr {
     font-weight: 500;
     font-size: 20px;
