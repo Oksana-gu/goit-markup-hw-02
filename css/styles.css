@@ -1,6 +1,7 @@
 body {
-    font-family: 'Roboto', 'Raleway', sans-serif ;
+    font-family: 'Roboto', sans-serif ;
     color: #434455;
+    background-color: #fff;
 }
 
 ul, li {
@@ -8,22 +9,24 @@ ul, li {
 }
 
 .nav-a {
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #2e2f42;
+    color: #4d5ae5;
     text-decoration: none;
 }
 
 .nav-a-span {
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4d5ae5; 
+    color: #2e2f42; 
     text-decoration: none;
 }
 
@@ -36,27 +39,45 @@ ul, li {
     text-decoration: none;
     cursor: pointer;
 }
-.web-address {
+.web-title:hover {
+    color: #404bbf;
+}
+
+.web-title:focus {
+    color: #404bbf;
+}
+.web-address-email {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2e2f42;
+    color: #434455;
     text-decoration: none;
     cursor: pointer;
+    font-style: normal;
+}
+.web-address-tel {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    text-decoration: none;
+    cursor: pointer;
+    font-style: normal;
 }
 .web-address-email:hover {
-    color: aqua;
+    color: #404bbf;
 }
 .web-address-tel:hover {
-    color: aqua;
+    color: #404bbf;
 }
 .web-address-email:focus {
-    color: #4d5ae5; 
+    color: #404bbf; 
 }
 
 .web-address-tel:focus {
-    color: #4d5ae5;
+    color: #404bbf;
 }
 
 .onesection {
@@ -65,18 +86,33 @@ ul, li {
 .onesection-title {
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.07143;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
 }
-.sectionone-button {
+.onesection-button {
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;
     cursor: pointer;
+    background-color: #4D5AE5;
+}
+
+.onesection-button:hover {
+    color: #404bbf;
+ }
+.onesection-button:focus {
+    color: #404bbf;
+}
+.twosection {
+    background-color: #f4f4fd;
+}
+.section-li {
+    background-color: #FFFFFF;
 }
 .twosection-title {
     font-weight: 700;
@@ -99,12 +135,13 @@ ul, li {
     letter-spacing: 0.02em;
 }
 .threesection-title {
-    font-weight: 700;
+    font-weight: 500;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    text-transform: capitalize;
 }
 .threesection-title-scr {
     font-weight: 500;
@@ -124,28 +161,31 @@ ul, li {
 .foursection-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    text-transform: capitalize;
 }
 
 .footer {
     background-color: #2e2f42;
 }
-.footer-a-span {
+.footer-a {
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
     text-decoration: none;
 }
-.footer-a {
+.footer-a-span{
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #f4f4fd;
